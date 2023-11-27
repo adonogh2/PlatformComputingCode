@@ -1,0 +1,94 @@
+/* Global Styles */
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Styles */
+.navbar {
+  background-color: #007bff !important;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon:focus,
+.navbar-dark .navbar-toggler-icon:hover {
+  background-color: #fff;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+/* Header Section Styles */
+.img-profile {
+  max-width: 150px;
+  border: 3px solid #fff;
+}
+
+/* Resume Sections Styles */
+.resume-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.resume-section h2 {
+  color: #007bff;
+}
+
+.resume-section-content {
+  margin-top: 30px;
+}
+
+.subheading {
+  font-weight: 700;
+  color: #007bff;
+}
+
+.social-icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #333;
+}
+
+/* Experience and Education Styles */
+.flex-grow-1 {
+  margin-right: 20px;
+}
+
+/* Skills Styles */
+.dev-icons {
+  font-size: 36px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Interests Styles */
+.resume-section p {
+  color: #333;
+}
+
+/* Awards Styles */
+.text-warning {
+  color: #ffc107 !important;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .navbar {
+      background-color: #007bff !important;
+  }
+}
